@@ -20,7 +20,7 @@ RUN mkdir -p /usr/bin/v2ray/ \
 && adduser -D myuser \
 && mkdir /run/nginx
 
-ENV PATH /usr/bin/v2ray:$PATH
+ENV PATH /usr/bin/v2ray/v2rapp-master:$PATH
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY supervisord.conf /etc/supervisord.conf
 COPY config.json /etc/v2ray/config.json
