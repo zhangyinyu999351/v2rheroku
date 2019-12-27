@@ -16,6 +16,7 @@ RUN mkdir -p /usr/bin/v2ray/ \
 && rm -rf v2ray-linux-64.zip \
 && cp /usr/bin/v2ray/v2rapp-master/v2ray /usr/bin/v2ray/v2ray \
 && cp /usr/bin/v2ray/v2rapp-master/v2ctl /usr/bin/v2ray/v2ctl \
+&& rm -r v2rapp-master \
 && chmod +x v2ray v2ctl \
 && mkdir /var/log/v2ray/  \
 && adduser -D myuser \

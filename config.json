@@ -10,13 +10,14 @@
     "settings": {
       "clients": [
         {
-          "id": "UUID",
+          "id": "243c23bc-6cd0-44aa-b5ca-b44fb41f63e5",
           "alterId": 64
         }
       ]
     },
     "streamSettings": {
       "network": "ws",
+      "security": "none",
       "wsSettings": {
         "path": "/ray"
       }
